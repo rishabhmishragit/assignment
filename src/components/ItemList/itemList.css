@@ -1,0 +1,9 @@
+.itemList {
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 18px;
+}

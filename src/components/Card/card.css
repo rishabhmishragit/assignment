@@ -1,0 +1,40 @@
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-wrap: break-word;
+  border-radius: 12px;
+  max-width: 45%;
+  width: fit-content;
+  overflow: hidden;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 300px;
+}
+
+.itemName {
+  display: flex;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.itemType {
+  width: 100%;
+  margin: 5px 0px 0px;
+  padding: 7px 0px;
+  font-weight: bold;
+  font-size: 12px;
+  background: rgb(72, 16, 11);
+  color: white;
+  border: 1px solid grey;
+  text-align: center;
+  text-transform: uppercase;
+}

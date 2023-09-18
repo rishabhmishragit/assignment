@@ -1,0 +1,32 @@
+.heading {
+  font-weight: bold;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 10px auto 0px;
+  text-align: center;
+}
+
+.subHeading {
+  font-weight: bold;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 10px auto 0px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.link {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.text {
+  padding: 7px 40px;
+  font-weight: bold;
+  font-size: 22px;
+  background: black;
+  color: white;
+}
