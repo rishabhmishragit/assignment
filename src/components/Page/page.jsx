@@ -1,6 +1,7 @@
 import React from 'react'
 import './page.css'
 import ItemList from '../ItemList/itemList.jsx'
+import { Link } from 'react-router-dom'
 
 function Page() {
   return (
@@ -11,7 +12,7 @@ function Page() {
       <div className='subHeading'>Skin Concern</div>
       <ItemList/>
       <div className='link'>
-        <div className='text'>Next</div>
+       <Link to="/Form" className='text'>Next</Link>
       </div>
     </>   
   )

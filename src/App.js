@@ -1,11 +1,17 @@
 import './App.css';
-import Page from './components/Page/page';
+import Page from './components/Page/page'
+import Form from './components/Form/form'
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="container">
-      <Page/>
+      
+      <Routes>
+        <Route path="/" element={<Page/>} />
+        <Route path="/Form" element={<Form/>} />
+      </Routes>
     </div>
   );
 }
